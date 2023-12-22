@@ -5,7 +5,10 @@
   "main": "dist/index.js",
   "private": false,
   "scripts": {
-    "build": "tsup src/index.jsx --format esm,cjs --external react --external react-native"
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.jsx --format esm,cjs --external react --external react-native",
+    "ci": "npm run test && npm run build"
   },
   "keywords": [
     "react native",
@@ -21,5 +24,8 @@
   "dependencies": {
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "vitest": "^1.1.0"
   }
 }
