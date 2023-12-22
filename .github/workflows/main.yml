@@ -2,7 +2,9 @@ name: Build library
 
 on: 
   push: 
-    branches: [ develop ]
+    branches: 
+      - develop
+      - 'feature/**'
 jobs:
   build:
     runs-on: ubuntu-latest
