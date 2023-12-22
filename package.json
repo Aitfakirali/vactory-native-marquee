@@ -1,14 +1,16 @@
 {
-  "name": "vactory-native-marquee",
+  "name": "@vactoryrn/react-native-marquee",
   "version": "0.0.1",
   "description": "React native marquee library",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "private": false,
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
     "build": "tsup src/index.jsx --format esm,cjs --external react --external react-native",
-    "ci": "npm run test && npm run build"
+    "ci": "npm run test && npm run build",
+    "release": "npm run test && npm run build && changeset publish"
   },
   "keywords": [
     "react native",
@@ -22,6 +24,7 @@
     "react-native": "^0.73.1"
   },
   "dependencies": {
+    "@changesets/cli": "^2.27.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
