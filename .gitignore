@@ -83,3 +83,5 @@ build-*
 /ios
 # @end Vactory
 
+vactory-native-marquee**
+

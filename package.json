@@ -1,14 +1,15 @@
 {
   "name": "vactory-native-marquee",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "React native marquee library",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.jsx --format esm,cjs --external react --external react-native"
   },
   "keywords": [
-    "Javascript",
-    "Marquee",
+    "react native",
+    "marquee",
     "autoscroll"
   ],
   "author": "Ait fakir ali soufiane",
@@ -16,5 +17,9 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-native": "^0.73.1"
+  },
+  "dependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
   }
 }
