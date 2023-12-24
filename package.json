@@ -1,5 +1,5 @@
 {
-  "name": "@vactoryrn/marquee",
+  "name": "@aitfakirali/react-native-marquee",
   "version": "0.0.1",
   "description": "React native marquee library",
   "main": "dist/index.js",
@@ -21,7 +21,7 @@
     "autoscroll"
   ],
   "author": "Ait fakir ali soufiane",
-  "license": "MIT",
+  "license": "ISC",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-native": "^0.73.1"
