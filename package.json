@@ -1,5 +1,5 @@
 {
-  "name": "@vactoryrn/react-native-marquee",
+  "name": "vactory-native-marquee",
   "version": "0.0.1",
   "description": "React native marquee library",
   "main": "dist/index.js",
