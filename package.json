@@ -1,5 +1,5 @@
 {
-  "name": "@vactoryrn/vactory-native-marquee",
+  "name": "@vactoryrn/marquee",
   "version": "0.0.1",
   "description": "React native marquee library",
   "main": "dist/index.js",
@@ -11,6 +11,9 @@
     "build": "tsup src/index.jsx --format esm,cjs --external react --external react-native",
     "ci": "npm run test && npm run build",
     "release": "npm run test && npm run build && changeset publish"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "react native",
