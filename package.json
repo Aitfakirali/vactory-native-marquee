@@ -18,7 +18,7 @@
     "autoscroll"
   ],
   "author": "Ait fakir ali soufiane",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-native": "^0.73.1"
