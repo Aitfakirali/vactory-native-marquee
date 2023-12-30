@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- 1dc739c: Add Readme file to the project + add Example expo app
+
+## 0.0.3
+
+### Patch Changes
+
 - 691be43: Exclude not needed folders and files
 
 ## 0.0.2
