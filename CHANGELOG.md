@@ -1,5 +1,11 @@
 # @vactoryrn/react-native-marquee
 
+## 0.0.6
+
+### Patch Changes
+
+- 1dc739c: Add Readme file to the project + add Example expo app
+
 ## 0.0.3
 
 ### Patch Changes
