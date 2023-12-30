@@ -1,6 +1,6 @@
 {
   "name": "@aitfakirali/react-native-marquee",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React native marquee library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -10,7 +10,7 @@
     "test": "vitest run",
     "build": "tsup src/index.jsx --format esm,cjs --external react --external react-native",
     "ci": "npm run test && npm run build",
-    "release": "npm run test && npm run build && changeset publish"
+    "release": "npm run test && npm run build && npx changeset publish"
   },
   "publishConfig": {
     "access": "public"
