@@ -2,7 +2,7 @@
 
 React native Marquee is a npm library for creating auto scrolling view
 
-https://github.com/Aitfakirali/vactory-native-marquee/assets/84398006/65e738ab-3e88-4f64-b251-8ff024343280
+![Demo](https://res.cloudinary.com/dtnw4la0z/image/upload/v1703955765/ezgif.com-video-to-gif-converter_cvakad.gif)
 
 ## Installation
 
